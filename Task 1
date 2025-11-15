@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazm Coffee</title>
+    <link rel
+="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png"> <!-- optional -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Bazm Coffee</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Freshly Brewed, Served with Love</h1>
+            <button onclick="location.href='#menu'">Explore Menu</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Coffee">
+        </div>
+        <div class="about-text">
+            <h2>About Bazm Coffee</h2>
+            <p>
+                Bazm Coffee is a cozy space where aroma meets passion.  
+                We serve freshly brewed coffee made from premium beans,  
+                giving you the perfect sip every time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>$4.50</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>$5.00</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1511926429261-874f7844bda1" alt="Latte">
+                <h3>Latte</h3>
+                <p>$5.50</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>$6.00</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <p>Email: bazmcoffee@gmail.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>Location: Main Street, Your City</p>
+
+        <div class="social">
+            <a href="#">FB</a>
+            <a href="#">IG</a>
+            <a href="#">TW</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Bazm Coffee. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
